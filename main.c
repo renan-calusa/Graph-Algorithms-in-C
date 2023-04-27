@@ -70,8 +70,6 @@ void read_file(char* file, Graph** graph_ptr){
 	FILE* fp;
 	fp = fopen (file, "rt");
 	
-	char* set;
-	char* add;
 	int index;
 	
 	int i = 0;
